@@ -14,6 +14,9 @@ img {
 .debug {
     border: 1px solid red;
 }
+.debug1 {
+    border: 1px solid green;
+}
 
 ul {
     list-style: none;
@@ -21,7 +24,7 @@ ul {
 
 /* root */
 :root {
-    --color-light-blue: #b4d0e7;
+    --color-light-blue: #b5d1e8;
     --color-dark: #000000;
     --color-blue: #0061ff;
     --color-grey: #f5f5f5;
@@ -53,6 +56,7 @@ a {
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 5px 15px;
+    width: 225px;
 }
 
 /* container */
@@ -60,6 +64,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .container-small {
@@ -79,6 +84,9 @@ a {
 .center {
     align-items: center;
 }
+.collumn {
+    flex-direction: column;
+}
 
 /* spacings */
 .gap {
@@ -88,13 +96,51 @@ a {
 .padding {
     padding: 30px;
 }
+.padding-top {
+    padding-top: 85px;
+}
 
 .margin-right {
     margin-right: 30px;
+}
+.margin-bottom {
+    margin-bottom: 40px;
+}
+.width-30 {
+    width: 30%;
+}
+.width-70 {
+    width: 70%;
 }
 
 
 /* header */
 header nav ul li a {
     color: var(--color-dark);
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--color-white);
+}
+
+/* main */
+.bg-color {
+    background-color: var(--color-light-blue);
+}
+h1 {
+    font-size: 4.7em;
+    padding: 5%;
+}
+#section-1{
+    position: relative;
+    top: 75px;
+}
+.arrow {
+    position: relative;
+    top: 35px;
+    font-size: 40px;
 }
