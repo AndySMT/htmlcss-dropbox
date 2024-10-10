@@ -59,6 +59,7 @@ a {
     padding: 5px 10px;
     /*  width: 225px; */
 }
+
 .button-grey {
     background-color: var(--color-grey);
     color: var(--color-dark);
@@ -255,6 +256,7 @@ main div ul li a {
     width: calc((100% - 20px) /3);
     border: 1px solid var(--color-grey);
 }
+
 .box1 {
     width: 1140px;
     border: 1px solid var(--color-grey);
@@ -288,27 +290,30 @@ main div ul li a {
     align-items: center;
 }
 
+
 /* #gridlogogrande { */
-    /* display: grid;
+/* display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1200px;
 } */
 
 /* .gridlogopiccolo { */
-    /* display: grid;
+/* display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 30%;
     height: 30%; */
 /* } */
-.central-logo{
+.central-logo {
     width: 55%;
     height: 55%;
 }
+
 .logowh {
     width: 50%;
     height: 50%;
 }
+
 .bglogo-green {
     background-color: var(--color-logo-green);
 }
@@ -325,21 +330,47 @@ main div ul li a {
     background-color: var(--color-logo-light-red);
 }
 
-.bglogo-red{
+.bglogo-red {
     background-color: var(--color-logo-red);
 }
 
 .bglogo-light-blue {
     background-color: var(--color-light-blue);
 }
+
 .bg-logo-blue {
     background-color: var(--color-logo-blue);
 }
+
 .bglogo-yellow {
     background-color: var(--color-logo-yellow);
 }
+
 .pos-rel {
     position: relative;
     top: 60px;
     right: 140px;
+}
+
+.faq-carret {
+    position: relative;
+    left: 20%;
+}
+
+.faq-border {
+    border-bottom: 1px solid var(--color-grey);
+}
+/* footer */
+.bg-footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+footer a {
+    color: var(--color-white);
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: block;
+}
+.margin-right {
+    margin-right: 136px;
 }
