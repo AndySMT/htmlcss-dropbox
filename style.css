@@ -14,6 +14,7 @@ img {
 .debug {
     border: 1px solid red;
 }
+
 .debug1 {
     border: 1px solid green;
 }
@@ -56,14 +57,23 @@ a {
     background-color: var(--color-blue);
     color: var(--color-white);
     padding: 5px 10px;
-   /*  width: 225px; */
+    /*  width: 225px; */
 }
+.button-grey {
+    background-color: var(--color-grey);
+    color: var(--color-dark);
+    padding: 5px 10px;
+    margin-top: 60px;
+}
+
 .txt-bold {
     font-weight: bold;
 }
+
 .txtgrey {
     color: var(--color-grey);
 }
+
 .txtgreen {
     color: var(--color-logo-green);
 }
@@ -89,6 +99,7 @@ a {
 .between {
     justify-content: space-between;
 }
+
 .around {
     justify-content: space-around;
 }
@@ -96,14 +107,21 @@ a {
 .center {
     align-items: center;
 }
+
 .collumn {
     flex-direction: column;
 }
+
 .justyfy-center {
     justify-content: center;
 }
+
 .wrap {
     flex-wrap: wrap;
+}
+
+.flexstart {
+    justify-content: flex-start;
 }
 
 /* spacings */
@@ -114,9 +132,11 @@ a {
 .padding {
     padding: 30px 30px;
 }
+
 .padding-30-0 {
     padding: 50px 0;
 }
+
 .padding-top {
     padding-top: 85px;
 }
@@ -124,24 +144,39 @@ a {
 .margin-right {
     margin-right: 30px;
 }
+
+.margin-left20 {
+    margin-left: 20px;
+}
+
+.margin-left165 {
+    margin-left: 175px;
+}
+
 .margin-bottom {
     margin-bottom: 40px;
 }
+
 .margin-top {
     margin-top: 55px;
 }
+
 .width-30 {
     width: 30%;
 }
+
 .width-70 {
     width: 70%;
 }
+
 .width-50 {
     width: 50%;
 }
-.spacing ul li{
+
+.spacing ul li {
     margin-bottom: 20px;
 }
+
 /* .p-l150 {
     padding-left: 150px;
 }
@@ -153,13 +188,15 @@ a {
 } */
 
 .width-calc {
- width: calc((100% - 15px) /3);
+    width: calc((100% - 15px) /3);
 }
+
 /* header */
 header nav ul li a {
     color: var(--color-dark);
     display: block;
 }
+
 header {
     position: fixed;
     left: 0;
@@ -173,41 +210,56 @@ header {
 .bg-color {
     background-color: var(--color-light-blue);
 }
+
 h1 {
     font-size: 4.7em;
     padding: 5% 15%;
 }
-#section-1{
+
+#section-1 {
     position: relative;
     top: 75px;
 }
+
 .arrow {
     position: relative;
     top: 35px;
     font-size: 40px;
 }
+
 #annual {
     margin-left: 50px;
 }
+
 h2 {
     font-size: 2.4em;
     padding: 20px 20px;
 }
+
 h3 {
     font-size: 1.7em;
     padding: 30px 0;
 }
+
 h4 {
     font-size: 1.2em;
     padding: 20px 0;
 }
+
 main div ul li a {
-    text-decoration: underline;;
+    text-decoration: underline;
+    ;
 }
-.box{
-    width: calc((100% - 20px) /3 );
+
+.box {
+    width: calc((100% - 20px) /3);
     border: 1px solid var(--color-grey);
 }
+.box1 {
+    width: 1140px;
+    border: 1px solid var(--color-grey);
+}
+
 .small-box {
     border-bottom: 1px solid var(--color-grey);
     padding-left: 150px;
@@ -221,4 +273,73 @@ main div ul li a {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+}
+
+#gridlogogrande .square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+#gridlogogrande .square .box {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #gridlogogrande { */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+} */
+
+/* .gridlogopiccolo { */
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 30%;
+    height: 30%; */
+/* } */
+.central-logo{
+    width: 55%;
+    height: 55%;
+}
+.logowh {
+    width: 50%;
+    height: 50%;
+}
+.bglogo-green {
+    background-color: var(--color-logo-green);
+}
+
+.bglogo-purple {
+    background-color: var(--color-logo-second);
+}
+
+.bglogo-blue {
+    background-color: var(--color-logo-third);
+}
+
+.bglogo-light-red {
+    background-color: var(--color-logo-light-red);
+}
+
+.bglogo-red{
+    background-color: var(--color-logo-red);
+}
+
+.bglogo-light-blue {
+    background-color: var(--color-light-blue);
+}
+.bg-logo-blue {
+    background-color: var(--color-logo-blue);
+}
+.bglogo-yellow {
+    background-color: var(--color-logo-yellow);
+}
+.pos-rel {
+    position: relative;
+    top: 60px;
+    right: 140px;
 }
