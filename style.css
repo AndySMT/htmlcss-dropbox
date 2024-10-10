@@ -55,11 +55,17 @@ a {
 .blue-box {
     background-color: var(--color-blue);
     color: var(--color-white);
-    padding: 5px 15px;
-    width: 225px;
+    padding: 5px 10px;
+   /*  width: 225px; */
 }
 .txt-bold {
     font-weight: bold;
+}
+.txtgrey {
+    color: var(--color-grey);
+}
+.txtgreen {
+    color: var(--color-logo-green);
 }
 
 /* container */
@@ -93,6 +99,12 @@ a {
 .collumn {
     flex-direction: column;
 }
+.justyfy-center {
+    justify-content: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* spacings */
 .gap {
@@ -103,7 +115,7 @@ a {
     padding: 30px 30px;
 }
 .padding-30-0 {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 .padding-top {
     padding-top: 85px;
@@ -124,15 +136,29 @@ a {
 .width-70 {
     width: 70%;
 }
-.spacing ul li{
-    margin-bottom: 15px;
+.width-50 {
+    width: 50%;
 }
+.spacing ul li{
+    margin-bottom: 20px;
+}
+/* .p-l150 {
+    padding-left: 150px;
+}
+.p-t7 {
+    padding-top: 7px;
+}
+.p-b7 {
+    padding-bottom: 7px;
+} */
 
-
-
+.width-calc {
+ width: calc((100% - 15px) /3);
+}
 /* header */
 header nav ul li a {
     color: var(--color-dark);
+    display: block;
 }
 header {
     position: fixed;
@@ -179,10 +205,20 @@ main div ul li a {
     text-decoration: underline;;
 }
 .box{
+    width: calc((100% - 20px) /3 );
     border: 1px solid var(--color-grey);
 }
 .small-box {
     border-bottom: 1px solid var(--color-grey);
-    padding-left: 100px;
-    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
